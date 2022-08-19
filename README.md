@@ -17,7 +17,7 @@ In order to have actually wanted to arrive on this page you need to be:
 You better use a solenoid in this, if you don't I'll know and I'll find you and take your board away and start discord trask talk. If I ever find out someone tries to make this linear I am taking my proverbial ball offline and going home.
 
 # render
-![Sique]([vipers baby.png](https://raw.githubusercontent.com/ImYourHuckleberry/lower_case/main/vipers%20baby.png))
+![Sique](https://raw.githubusercontent.com/ImYourHuckleberry/lower_case/main/vipers%20baby.png)
 
 # Some notes
 
