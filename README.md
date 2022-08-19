@@ -20,6 +20,10 @@ You better use a solenoid in this, if you don't I'll know and I'll find you and 
 ![Sique](https://raw.githubusercontent.com/ImYourHuckleberry/lower_case/main/vipers%20baby.png)
 ![Classy](https://github.com/ImYourHuckleberry/lower_case/blob/main/normal%20if%20thats%20your%20thing.png)
 
+
+# Actual Picture
+![This is real life](https://cdn.discordapp.com/attachments/732690073056706590/1009990712462426182/20220818_200202.jpg)
+
 # Some notes
 
 PCB, 3MF, and STEP files for the lower case capacative keyboard
