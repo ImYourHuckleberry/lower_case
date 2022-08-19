@@ -38,6 +38,8 @@ lowercase/gnd_gerber.zip
 3D parts should be in there. I have printed them and they look good and fit well. I am using threaded insert embedded nuts to screw on the mounting bracket. 
 Basically a little threaded pipe you heat up with a soldering iron and it embeds into the print. This way you have something to actually screw into.
 
+The plate could use some spacebar stab mounts, Im looking into it
+
 Basically you need the case cause of course you do. The plate is curved so IDK how else you could get one. The mounting bracket snugs the whole thing up.
 
 # How do all the components fit
