@@ -1,0 +1,1422 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L model_d:SW_Cap SW1
+U 1 1 616E6CFF
+P 1150 2350
+F 0 "SW1" H 1150 2257 50  0000 C CNN
+F 1 "SW_Cap" H 1150 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 1150 2550 50  0001 C CNN
+F 3 "~" H 1150 2550 50  0001 C CNN
+	1    1150 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW2
+U 1 1 616E70BE
+P 1150 3050
+F 0 "SW2" H 1150 2957 50  0000 C CNN
+F 1 "SW_Cap" H 1150 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 1150 3250 50  0001 C CNN
+F 3 "~" H 1150 3250 50  0001 C CNN
+	1    1150 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 2350 2    50   Input ~ 0
+R0
+Text GLabel 1350 3050 2    50   Input ~ 0
+R1
+Text GLabel 950  3050 0    50   Input ~ 0
+C0
+Text GLabel 950  2350 0    50   Input ~ 0
+C0
+$Comp
+L power:GND #PWR01
+U 1 1 616E7F3D
+P 1150 2200
+F 0 "#PWR01" H 1150 1950 50  0001 C CNN
+F 1 "GND" H 1155 2027 50  0000 C CNN
+F 2 "" H 1150 2200 50  0001 C CNN
+F 3 "" H 1150 2200 50  0001 C CNN
+	1    1150 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 616E8437
+P 1150 2900
+F 0 "#PWR02" H 1150 2650 50  0001 C CNN
+F 1 "GND" H 1155 2727 50  0000 C CNN
+F 2 "" H 1150 2900 50  0001 C CNN
+F 3 "" H 1150 2900 50  0001 C CNN
+	1    1150 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW3
+U 1 1 616F98DB
+P 1150 3750
+F 0 "SW3" H 1150 3657 50  0000 C CNN
+F 1 "SW_Cap" H 1150 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 1150 3950 50  0001 C CNN
+F 3 "~" H 1150 3950 50  0001 C CNN
+	1    1150 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW4
+U 1 1 616F98E1
+P 1150 4450
+F 0 "SW4" H 1150 4357 50  0000 C CNN
+F 1 "SW_Cap" H 1150 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 1150 4650 50  0001 C CNN
+F 3 "~" H 1150 4650 50  0001 C CNN
+	1    1150 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 1350 3750 2    50   Input ~ 0
+R2
+Text GLabel 1350 4450 2    50   Input ~ 0
+R3
+Text GLabel 950  4450 0    50   Input ~ 0
+C0
+Text GLabel 950  3750 0    50   Input ~ 0
+C0
+$Comp
+L power:GND #PWR03
+U 1 1 616F98EB
+P 1150 3600
+F 0 "#PWR03" H 1150 3350 50  0001 C CNN
+F 1 "GND" H 1155 3427 50  0000 C CNN
+F 2 "" H 1150 3600 50  0001 C CNN
+F 3 "" H 1150 3600 50  0001 C CNN
+	1    1150 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 616F98F1
+P 1150 4300
+F 0 "#PWR04" H 1150 4050 50  0001 C CNN
+F 1 "GND" H 1155 4127 50  0000 C CNN
+F 2 "" H 1150 4300 50  0001 C CNN
+F 3 "" H 1150 4300 50  0001 C CNN
+	1    1150 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW5
+U 1 1 616FC24F
+P 2000 2350
+F 0 "SW5" H 2000 2257 50  0000 C CNN
+F 1 "SW_Cap" H 2000 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 2000 2550 50  0001 C CNN
+F 3 "~" H 2000 2550 50  0001 C CNN
+	1    2000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW6
+U 1 1 616FC255
+P 2000 3050
+F 0 "SW6" H 2000 2957 50  0000 C CNN
+F 1 "SW_Cap" H 2000 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 2000 3250 50  0001 C CNN
+F 3 "~" H 2000 3250 50  0001 C CNN
+	1    2000 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 2200 2350 2    50   Input ~ 0
+R0
+Text GLabel 2200 3050 2    50   Input ~ 0
+R1
+Text GLabel 1800 3050 0    50   Input ~ 0
+C1
+Text GLabel 1800 2350 0    50   Input ~ 0
+C1
+$Comp
+L power:GND #PWR07
+U 1 1 616FC25F
+P 2000 2200
+F 0 "#PWR07" H 2000 1950 50  0001 C CNN
+F 1 "GND" H 2005 2027 50  0000 C CNN
+F 2 "" H 2000 2200 50  0001 C CNN
+F 3 "" H 2000 2200 50  0001 C CNN
+	1    2000 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR08
+U 1 1 616FC265
+P 2000 2900
+F 0 "#PWR08" H 2000 2650 50  0001 C CNN
+F 1 "GND" H 2005 2727 50  0000 C CNN
+F 2 "" H 2000 2900 50  0001 C CNN
+F 3 "" H 2000 2900 50  0001 C CNN
+	1    2000 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW7
+U 1 1 616FC26B
+P 2000 3750
+F 0 "SW7" H 2000 3657 50  0000 C CNN
+F 1 "SW_Cap" H 2000 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 2000 3950 50  0001 C CNN
+F 3 "~" H 2000 3950 50  0001 C CNN
+	1    2000 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW8
+U 1 1 616FC271
+P 2000 4450
+F 0 "SW8" H 2000 4357 50  0000 C CNN
+F 1 "SW_Cap" H 2000 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 2000 4650 50  0001 C CNN
+F 3 "~" H 2000 4650 50  0001 C CNN
+	1    2000 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 2200 3750 2    50   Input ~ 0
+R2
+Text GLabel 2200 4450 2    50   Input ~ 0
+R3
+Text GLabel 1800 4450 0    50   Input ~ 0
+C1
+Text GLabel 1800 3750 0    50   Input ~ 0
+C1
+$Comp
+L power:GND #PWR09
+U 1 1 616FC27B
+P 2000 3600
+F 0 "#PWR09" H 2000 3350 50  0001 C CNN
+F 1 "GND" H 2005 3427 50  0000 C CNN
+F 2 "" H 2000 3600 50  0001 C CNN
+F 3 "" H 2000 3600 50  0001 C CNN
+	1    2000 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 616FC281
+P 2000 4300
+F 0 "#PWR010" H 2000 4050 50  0001 C CNN
+F 1 "GND" H 2005 4127 50  0000 C CNN
+F 2 "" H 2000 4300 50  0001 C CNN
+F 3 "" H 2000 4300 50  0001 C CNN
+	1    2000 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW9
+U 1 1 61708971
+P 2850 2350
+F 0 "SW9" H 2850 2257 50  0000 C CNN
+F 1 "SW_Cap" H 2850 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 2850 2550 50  0001 C CNN
+F 3 "~" H 2850 2550 50  0001 C CNN
+	1    2850 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW10
+U 1 1 61708977
+P 2850 3050
+F 0 "SW10" H 2850 2957 50  0000 C CNN
+F 1 "SW_Cap" H 2850 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 2850 3250 50  0001 C CNN
+F 3 "~" H 2850 3250 50  0001 C CNN
+	1    2850 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 2350 2    50   Input ~ 0
+R0
+Text GLabel 3050 3050 2    50   Input ~ 0
+R1
+Text GLabel 2650 3050 0    50   Input ~ 0
+C2
+Text GLabel 2650 2350 0    50   Input ~ 0
+C2
+$Comp
+L power:GND #PWR013
+U 1 1 61708981
+P 2850 2200
+F 0 "#PWR013" H 2850 1950 50  0001 C CNN
+F 1 "GND" H 2855 2027 50  0000 C CNN
+F 2 "" H 2850 2200 50  0001 C CNN
+F 3 "" H 2850 2200 50  0001 C CNN
+	1    2850 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 61708987
+P 2850 2900
+F 0 "#PWR014" H 2850 2650 50  0001 C CNN
+F 1 "GND" H 2855 2727 50  0000 C CNN
+F 2 "" H 2850 2900 50  0001 C CNN
+F 3 "" H 2850 2900 50  0001 C CNN
+	1    2850 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW11
+U 1 1 6170898D
+P 2850 3750
+F 0 "SW11" H 2850 3657 50  0000 C CNN
+F 1 "SW_Cap" H 2850 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 2850 3950 50  0001 C CNN
+F 3 "~" H 2850 3950 50  0001 C CNN
+	1    2850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW12
+U 1 1 61708993
+P 2850 4450
+F 0 "SW12" H 2850 4357 50  0000 C CNN
+F 1 "SW_Cap" H 2850 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 2850 4650 50  0001 C CNN
+F 3 "~" H 2850 4650 50  0001 C CNN
+	1    2850 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3050 3750 2    50   Input ~ 0
+R2
+Text GLabel 3050 4450 2    50   Input ~ 0
+R3
+Text GLabel 2650 4450 0    50   Input ~ 0
+C2
+Text GLabel 2650 3750 0    50   Input ~ 0
+C2
+$Comp
+L power:GND #PWR015
+U 1 1 6170899D
+P 2850 3600
+F 0 "#PWR015" H 2850 3350 50  0001 C CNN
+F 1 "GND" H 2855 3427 50  0000 C CNN
+F 2 "" H 2850 3600 50  0001 C CNN
+F 3 "" H 2850 3600 50  0001 C CNN
+	1    2850 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR016
+U 1 1 617089A3
+P 2850 4300
+F 0 "#PWR016" H 2850 4050 50  0001 C CNN
+F 1 "GND" H 2855 4127 50  0000 C CNN
+F 2 "" H 2850 4300 50  0001 C CNN
+F 3 "" H 2850 4300 50  0001 C CNN
+	1    2850 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW13
+U 1 1 617089A9
+P 3700 2350
+F 0 "SW13" H 3700 2257 50  0000 C CNN
+F 1 "SW_Cap" H 3700 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 3700 2550 50  0001 C CNN
+F 3 "~" H 3700 2550 50  0001 C CNN
+	1    3700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW14
+U 1 1 617089AF
+P 3700 3050
+F 0 "SW14" H 3700 2957 50  0000 C CNN
+F 1 "SW_Cap" H 3700 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 3700 3250 50  0001 C CNN
+F 3 "~" H 3700 3250 50  0001 C CNN
+	1    3700 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 2350 2    50   Input ~ 0
+R0
+Text GLabel 3900 3050 2    50   Input ~ 0
+R1
+Text GLabel 3500 3050 0    50   Input ~ 0
+C3
+Text GLabel 3500 2350 0    50   Input ~ 0
+C3
+$Comp
+L power:GND #PWR020
+U 1 1 617089B9
+P 3700 2200
+F 0 "#PWR020" H 3700 1950 50  0001 C CNN
+F 1 "GND" H 3705 2027 50  0000 C CNN
+F 2 "" H 3700 2200 50  0001 C CNN
+F 3 "" H 3700 2200 50  0001 C CNN
+	1    3700 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR021
+U 1 1 617089BF
+P 3700 2900
+F 0 "#PWR021" H 3700 2650 50  0001 C CNN
+F 1 "GND" H 3705 2727 50  0000 C CNN
+F 2 "" H 3700 2900 50  0001 C CNN
+F 3 "" H 3700 2900 50  0001 C CNN
+	1    3700 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW15
+U 1 1 617089C5
+P 3700 3750
+F 0 "SW15" H 3700 3657 50  0000 C CNN
+F 1 "SW_Cap" H 3700 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 3700 3950 50  0001 C CNN
+F 3 "~" H 3700 3950 50  0001 C CNN
+	1    3700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW16
+U 1 1 617089CB
+P 3700 4450
+F 0 "SW16" H 3700 4357 50  0000 C CNN
+F 1 "SW_Cap" H 3700 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 3700 4650 50  0001 C CNN
+F 3 "~" H 3700 4650 50  0001 C CNN
+	1    3700 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 3900 3750 2    50   Input ~ 0
+R2
+Text GLabel 3900 4450 2    50   Input ~ 0
+R3
+Text GLabel 3500 4450 0    50   Input ~ 0
+C3
+Text GLabel 3500 3750 0    50   Input ~ 0
+C3
+$Comp
+L power:GND #PWR022
+U 1 1 617089D5
+P 3700 3600
+F 0 "#PWR022" H 3700 3350 50  0001 C CNN
+F 1 "GND" H 3705 3427 50  0000 C CNN
+F 2 "" H 3700 3600 50  0001 C CNN
+F 3 "" H 3700 3600 50  0001 C CNN
+	1    3700 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR023
+U 1 1 617089DB
+P 3700 4300
+F 0 "#PWR023" H 3700 4050 50  0001 C CNN
+F 1 "GND" H 3705 4127 50  0000 C CNN
+F 2 "" H 3700 4300 50  0001 C CNN
+F 3 "" H 3700 4300 50  0001 C CNN
+	1    3700 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW17
+U 1 1 6171CED5
+P 4550 2350
+F 0 "SW17" H 4550 2257 50  0000 C CNN
+F 1 "SW_Cap" H 4550 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 4550 2550 50  0001 C CNN
+F 3 "~" H 4550 2550 50  0001 C CNN
+	1    4550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW18
+U 1 1 6171CEDB
+P 4550 3050
+F 0 "SW18" H 4550 2957 50  0000 C CNN
+F 1 "SW_Cap" H 4550 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 4550 3250 50  0001 C CNN
+F 3 "~" H 4550 3250 50  0001 C CNN
+	1    4550 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 2350 2    50   Input ~ 0
+R0
+Text GLabel 4750 3050 2    50   Input ~ 0
+R1
+Text GLabel 4350 3050 0    50   Input ~ 0
+C4
+Text GLabel 4350 2350 0    50   Input ~ 0
+C4
+$Comp
+L power:GND #PWR025
+U 1 1 6171CEE5
+P 4550 2200
+F 0 "#PWR025" H 4550 1950 50  0001 C CNN
+F 1 "GND" H 4555 2027 50  0000 C CNN
+F 2 "" H 4550 2200 50  0001 C CNN
+F 3 "" H 4550 2200 50  0001 C CNN
+	1    4550 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR026
+U 1 1 6171CEEB
+P 4550 2900
+F 0 "#PWR026" H 4550 2650 50  0001 C CNN
+F 1 "GND" H 4555 2727 50  0000 C CNN
+F 2 "" H 4550 2900 50  0001 C CNN
+F 3 "" H 4550 2900 50  0001 C CNN
+	1    4550 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW19
+U 1 1 6171CEF1
+P 4550 3750
+F 0 "SW19" H 4550 3657 50  0000 C CNN
+F 1 "SW_Cap" H 4550 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 4550 3950 50  0001 C CNN
+F 3 "~" H 4550 3950 50  0001 C CNN
+	1    4550 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW20
+U 1 1 6171CEF7
+P 4550 4450
+F 0 "SW20" H 4550 4357 50  0000 C CNN
+F 1 "SW_Cap" H 4550 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 4550 4650 50  0001 C CNN
+F 3 "~" H 4550 4650 50  0001 C CNN
+	1    4550 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 4750 3750 2    50   Input ~ 0
+R2
+Text GLabel 4750 4450 2    50   Input ~ 0
+R3
+Text GLabel 4350 4450 0    50   Input ~ 0
+C4
+Text GLabel 4350 3750 0    50   Input ~ 0
+C4
+$Comp
+L power:GND #PWR027
+U 1 1 6171CF01
+P 4550 3600
+F 0 "#PWR027" H 4550 3350 50  0001 C CNN
+F 1 "GND" H 4555 3427 50  0000 C CNN
+F 2 "" H 4550 3600 50  0001 C CNN
+F 3 "" H 4550 3600 50  0001 C CNN
+	1    4550 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR028
+U 1 1 6171CF07
+P 4550 4300
+F 0 "#PWR028" H 4550 4050 50  0001 C CNN
+F 1 "GND" H 4555 4127 50  0000 C CNN
+F 2 "" H 4550 4300 50  0001 C CNN
+F 3 "" H 4550 4300 50  0001 C CNN
+	1    4550 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW21
+U 1 1 6171CF0D
+P 5400 2350
+F 0 "SW21" H 5400 2257 50  0000 C CNN
+F 1 "SW_Cap" H 5400 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 5400 2550 50  0001 C CNN
+F 3 "~" H 5400 2550 50  0001 C CNN
+	1    5400 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW22
+U 1 1 6171CF13
+P 5400 3050
+F 0 "SW22" H 5400 2957 50  0000 C CNN
+F 1 "SW_Cap" H 5400 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 5400 3250 50  0001 C CNN
+F 3 "~" H 5400 3250 50  0001 C CNN
+	1    5400 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 2350 2    50   Input ~ 0
+R0
+Text GLabel 5600 3050 2    50   Input ~ 0
+R1
+Text GLabel 5200 3050 0    50   Input ~ 0
+C5
+Text GLabel 5200 2350 0    50   Input ~ 0
+C5
+$Comp
+L power:GND #PWR029
+U 1 1 6171CF1D
+P 5400 2200
+F 0 "#PWR029" H 5400 1950 50  0001 C CNN
+F 1 "GND" H 5405 2027 50  0000 C CNN
+F 2 "" H 5400 2200 50  0001 C CNN
+F 3 "" H 5400 2200 50  0001 C CNN
+	1    5400 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR030
+U 1 1 6171CF23
+P 5400 2900
+F 0 "#PWR030" H 5400 2650 50  0001 C CNN
+F 1 "GND" H 5405 2727 50  0000 C CNN
+F 2 "" H 5400 2900 50  0001 C CNN
+F 3 "" H 5400 2900 50  0001 C CNN
+	1    5400 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW23
+U 1 1 6171CF29
+P 5400 3750
+F 0 "SW23" H 5400 3657 50  0000 C CNN
+F 1 "SW_Cap" H 5400 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 5400 3950 50  0001 C CNN
+F 3 "~" H 5400 3950 50  0001 C CNN
+	1    5400 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW24
+U 1 1 6171CF2F
+P 5400 4450
+F 0 "SW24" H 5400 4357 50  0000 C CNN
+F 1 "SW_Cap" H 5400 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 5400 4650 50  0001 C CNN
+F 3 "~" H 5400 4650 50  0001 C CNN
+	1    5400 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5600 3750 2    50   Input ~ 0
+R2
+Text GLabel 5600 4450 2    50   Input ~ 0
+R3
+Text GLabel 5200 4450 0    50   Input ~ 0
+C5
+Text GLabel 5200 3750 0    50   Input ~ 0
+C5
+$Comp
+L power:GND #PWR031
+U 1 1 6171CF39
+P 5400 3600
+F 0 "#PWR031" H 5400 3350 50  0001 C CNN
+F 1 "GND" H 5405 3427 50  0000 C CNN
+F 2 "" H 5400 3600 50  0001 C CNN
+F 3 "" H 5400 3600 50  0001 C CNN
+	1    5400 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR032
+U 1 1 6171CF3F
+P 5400 4300
+F 0 "#PWR032" H 5400 4050 50  0001 C CNN
+F 1 "GND" H 5405 4127 50  0000 C CNN
+F 2 "" H 5400 4300 50  0001 C CNN
+F 3 "" H 5400 4300 50  0001 C CNN
+	1    5400 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW25
+U 1 1 6171CF45
+P 6250 2350
+F 0 "SW25" H 6250 2257 50  0000 C CNN
+F 1 "SW_Cap" H 6250 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 6250 2550 50  0001 C CNN
+F 3 "~" H 6250 2550 50  0001 C CNN
+	1    6250 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW26
+U 1 1 6171CF4B
+P 6250 3050
+F 0 "SW26" H 6250 2957 50  0000 C CNN
+F 1 "SW_Cap" H 6250 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 6250 3250 50  0001 C CNN
+F 3 "~" H 6250 3250 50  0001 C CNN
+	1    6250 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6450 2350 2    50   Input ~ 0
+R0
+Text GLabel 6450 3050 2    50   Input ~ 0
+R1
+Text GLabel 6050 3050 0    50   Input ~ 0
+C6
+Text GLabel 6050 2350 0    50   Input ~ 0
+C6
+$Comp
+L power:GND #PWR033
+U 1 1 6171CF55
+P 6250 2200
+F 0 "#PWR033" H 6250 1950 50  0001 C CNN
+F 1 "GND" H 6255 2027 50  0000 C CNN
+F 2 "" H 6250 2200 50  0001 C CNN
+F 3 "" H 6250 2200 50  0001 C CNN
+	1    6250 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR034
+U 1 1 6171CF5B
+P 6250 2900
+F 0 "#PWR034" H 6250 2650 50  0001 C CNN
+F 1 "GND" H 6255 2727 50  0000 C CNN
+F 2 "" H 6250 2900 50  0001 C CNN
+F 3 "" H 6250 2900 50  0001 C CNN
+	1    6250 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW27
+U 1 1 6171CF61
+P 6250 3750
+F 0 "SW27" H 6250 3657 50  0000 C CNN
+F 1 "SW_Cap" H 6250 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 6250 3950 50  0001 C CNN
+F 3 "~" H 6250 3950 50  0001 C CNN
+	1    6250 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW28
+U 1 1 6171CF67
+P 6250 4450
+F 0 "SW28" H 6250 4357 50  0000 C CNN
+F 1 "SW_Cap" H 6250 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 6250 4650 50  0001 C CNN
+F 3 "~" H 6250 4650 50  0001 C CNN
+	1    6250 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 6450 3750 2    50   Input ~ 0
+R2
+Text GLabel 6450 4450 2    50   Input ~ 0
+R3
+Text GLabel 6050 4450 0    50   Input ~ 0
+C6
+Text GLabel 6050 3750 0    50   Input ~ 0
+C6
+$Comp
+L power:GND #PWR035
+U 1 1 6171CF71
+P 6250 3600
+F 0 "#PWR035" H 6250 3350 50  0001 C CNN
+F 1 "GND" H 6255 3427 50  0000 C CNN
+F 2 "" H 6250 3600 50  0001 C CNN
+F 3 "" H 6250 3600 50  0001 C CNN
+	1    6250 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR036
+U 1 1 6171CF77
+P 6250 4300
+F 0 "#PWR036" H 6250 4050 50  0001 C CNN
+F 1 "GND" H 6255 4127 50  0000 C CNN
+F 2 "" H 6250 4300 50  0001 C CNN
+F 3 "" H 6250 4300 50  0001 C CNN
+	1    6250 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW29
+U 1 1 6171CF7D
+P 7100 2350
+F 0 "SW29" H 7100 2257 50  0000 C CNN
+F 1 "SW_Cap" H 7100 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 7100 2550 50  0001 C CNN
+F 3 "~" H 7100 2550 50  0001 C CNN
+	1    7100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW30
+U 1 1 6171CF83
+P 7100 3050
+F 0 "SW30" H 7100 2957 50  0000 C CNN
+F 1 "SW_Cap" H 7100 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 7100 3250 50  0001 C CNN
+F 3 "~" H 7100 3250 50  0001 C CNN
+	1    7100 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 2350 2    50   Input ~ 0
+R0
+Text GLabel 7300 3050 2    50   Input ~ 0
+R1
+Text GLabel 6900 3050 0    50   Input ~ 0
+C7
+Text GLabel 6900 2350 0    50   Input ~ 0
+C7
+$Comp
+L power:GND #PWR037
+U 1 1 6171CF8D
+P 7100 2200
+F 0 "#PWR037" H 7100 1950 50  0001 C CNN
+F 1 "GND" H 7105 2027 50  0000 C CNN
+F 2 "" H 7100 2200 50  0001 C CNN
+F 3 "" H 7100 2200 50  0001 C CNN
+	1    7100 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR038
+U 1 1 6171CF93
+P 7100 2900
+F 0 "#PWR038" H 7100 2650 50  0001 C CNN
+F 1 "GND" H 7105 2727 50  0000 C CNN
+F 2 "" H 7100 2900 50  0001 C CNN
+F 3 "" H 7100 2900 50  0001 C CNN
+	1    7100 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW31
+U 1 1 6171CF99
+P 7100 3750
+F 0 "SW31" H 7100 3657 50  0000 C CNN
+F 1 "SW_Cap" H 7100 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 7100 3950 50  0001 C CNN
+F 3 "~" H 7100 3950 50  0001 C CNN
+	1    7100 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW32
+U 1 1 6171CF9F
+P 7100 4450
+F 0 "SW32" H 7100 4357 50  0000 C CNN
+F 1 "SW_Cap" H 7100 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 7100 4650 50  0001 C CNN
+F 3 "~" H 7100 4650 50  0001 C CNN
+	1    7100 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 7300 3750 2    50   Input ~ 0
+R2
+Text GLabel 7300 4450 2    50   Input ~ 0
+R3
+Text GLabel 6900 4450 0    50   Input ~ 0
+C7
+Text GLabel 6900 3750 0    50   Input ~ 0
+C7
+$Comp
+L power:GND #PWR039
+U 1 1 6171CFA9
+P 7100 3600
+F 0 "#PWR039" H 7100 3350 50  0001 C CNN
+F 1 "GND" H 7105 3427 50  0000 C CNN
+F 2 "" H 7100 3600 50  0001 C CNN
+F 3 "" H 7100 3600 50  0001 C CNN
+	1    7100 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR040
+U 1 1 6171CFAF
+P 7100 4300
+F 0 "#PWR040" H 7100 4050 50  0001 C CNN
+F 1 "GND" H 7105 4127 50  0000 C CNN
+F 2 "" H 7100 4300 50  0001 C CNN
+F 3 "" H 7100 4300 50  0001 C CNN
+	1    7100 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW33
+U 1 1 617344FB
+P 7950 2350
+F 0 "SW33" H 7950 2257 50  0000 C CNN
+F 1 "SW_Cap" H 7950 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 7950 2550 50  0001 C CNN
+F 3 "~" H 7950 2550 50  0001 C CNN
+	1    7950 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW34
+U 1 1 61734501
+P 7950 3050
+F 0 "SW34" H 7950 2957 50  0000 C CNN
+F 1 "SW_Cap" H 7950 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 7950 3250 50  0001 C CNN
+F 3 "~" H 7950 3250 50  0001 C CNN
+	1    7950 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 8150 2350 2    50   Input ~ 0
+R0
+Text GLabel 8150 3050 2    50   Input ~ 0
+R1
+Text GLabel 7750 3050 0    50   Input ~ 0
+C8
+Text GLabel 7750 2350 0    50   Input ~ 0
+C8
+$Comp
+L power:GND #PWR041
+U 1 1 6173450B
+P 7950 2200
+F 0 "#PWR041" H 7950 1950 50  0001 C CNN
+F 1 "GND" H 7955 2027 50  0000 C CNN
+F 2 "" H 7950 2200 50  0001 C CNN
+F 3 "" H 7950 2200 50  0001 C CNN
+	1    7950 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR042
+U 1 1 61734511
+P 7950 2900
+F 0 "#PWR042" H 7950 2650 50  0001 C CNN
+F 1 "GND" H 7955 2727 50  0000 C CNN
+F 2 "" H 7950 2900 50  0001 C CNN
+F 3 "" H 7950 2900 50  0001 C CNN
+	1    7950 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW35
+U 1 1 61734517
+P 7950 3750
+F 0 "SW35" H 7950 3657 50  0000 C CNN
+F 1 "SW_Cap" H 7950 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 7950 3950 50  0001 C CNN
+F 3 "~" H 7950 3950 50  0001 C CNN
+	1    7950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW36
+U 1 1 6173451D
+P 7950 4450
+F 0 "SW36" H 7950 4357 50  0000 C CNN
+F 1 "SW_Cap" H 7950 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 7950 4650 50  0001 C CNN
+F 3 "~" H 7950 4650 50  0001 C CNN
+	1    7950 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 8150 3750 2    50   Input ~ 0
+R2
+Text GLabel 8150 4450 2    50   Input ~ 0
+R3
+Text GLabel 7750 4450 0    50   Input ~ 0
+C8
+Text GLabel 7750 3750 0    50   Input ~ 0
+C8
+$Comp
+L power:GND #PWR043
+U 1 1 61734527
+P 7950 3600
+F 0 "#PWR043" H 7950 3350 50  0001 C CNN
+F 1 "GND" H 7955 3427 50  0000 C CNN
+F 2 "" H 7950 3600 50  0001 C CNN
+F 3 "" H 7950 3600 50  0001 C CNN
+	1    7950 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR044
+U 1 1 6173452D
+P 7950 4300
+F 0 "#PWR044" H 7950 4050 50  0001 C CNN
+F 1 "GND" H 7955 4127 50  0000 C CNN
+F 2 "" H 7950 4300 50  0001 C CNN
+F 3 "" H 7950 4300 50  0001 C CNN
+	1    7950 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW37
+U 1 1 61734533
+P 8800 2350
+F 0 "SW37" H 8800 2257 50  0000 C CNN
+F 1 "SW_Cap" H 8800 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 8800 2550 50  0001 C CNN
+F 3 "~" H 8800 2550 50  0001 C CNN
+	1    8800 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW38
+U 1 1 61734539
+P 8800 3050
+F 0 "SW38" H 8800 2957 50  0000 C CNN
+F 1 "SW_Cap" H 8800 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 8800 3250 50  0001 C CNN
+F 3 "~" H 8800 3250 50  0001 C CNN
+	1    8800 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9000 2350 2    50   Input ~ 0
+R0
+Text GLabel 9000 3050 2    50   Input ~ 0
+R1
+Text GLabel 8600 3050 0    50   Input ~ 0
+C9
+Text GLabel 8600 2350 0    50   Input ~ 0
+C9
+$Comp
+L power:GND #PWR045
+U 1 1 61734543
+P 8800 2200
+F 0 "#PWR045" H 8800 1950 50  0001 C CNN
+F 1 "GND" H 8805 2027 50  0000 C CNN
+F 2 "" H 8800 2200 50  0001 C CNN
+F 3 "" H 8800 2200 50  0001 C CNN
+	1    8800 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR046
+U 1 1 61734549
+P 8800 2900
+F 0 "#PWR046" H 8800 2650 50  0001 C CNN
+F 1 "GND" H 8805 2727 50  0000 C CNN
+F 2 "" H 8800 2900 50  0001 C CNN
+F 3 "" H 8800 2900 50  0001 C CNN
+	1    8800 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW39
+U 1 1 6173454F
+P 8800 3750
+F 0 "SW39" H 8800 3657 50  0000 C CNN
+F 1 "SW_Cap" H 8800 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 8800 3950 50  0001 C CNN
+F 3 "~" H 8800 3950 50  0001 C CNN
+	1    8800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW40
+U 1 1 61734555
+P 8800 4450
+F 0 "SW40" H 8800 4357 50  0000 C CNN
+F 1 "SW_Cap" H 8800 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 8800 4650 50  0001 C CNN
+F 3 "~" H 8800 4650 50  0001 C CNN
+	1    8800 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9000 3750 2    50   Input ~ 0
+R2
+Text GLabel 9000 4450 2    50   Input ~ 0
+R3
+Text GLabel 8600 4450 0    50   Input ~ 0
+C9
+Text GLabel 8600 3750 0    50   Input ~ 0
+C9
+$Comp
+L power:GND #PWR047
+U 1 1 6173455F
+P 8800 3600
+F 0 "#PWR047" H 8800 3350 50  0001 C CNN
+F 1 "GND" H 8805 3427 50  0000 C CNN
+F 2 "" H 8800 3600 50  0001 C CNN
+F 3 "" H 8800 3600 50  0001 C CNN
+	1    8800 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR048
+U 1 1 61734565
+P 8800 4300
+F 0 "#PWR048" H 8800 4050 50  0001 C CNN
+F 1 "GND" H 8805 4127 50  0000 C CNN
+F 2 "" H 8800 4300 50  0001 C CNN
+F 3 "" H 8800 4300 50  0001 C CNN
+	1    8800 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW41
+U 1 1 6173456B
+P 9650 2350
+F 0 "SW41" H 9650 2257 50  0000 C CNN
+F 1 "SW_Cap" H 9650 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 9650 2550 50  0001 C CNN
+F 3 "~" H 9650 2550 50  0001 C CNN
+	1    9650 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW42
+U 1 1 61734571
+P 9650 3050
+F 0 "SW42" H 9650 2957 50  0000 C CNN
+F 1 "SW_Cap" H 9650 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 9650 3250 50  0001 C CNN
+F 3 "~" H 9650 3250 50  0001 C CNN
+	1    9650 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 9850 2350 2    50   Input ~ 0
+R0
+Text GLabel 9850 3050 2    50   Input ~ 0
+R1
+Text GLabel 9450 3050 0    50   Input ~ 0
+C10
+Text GLabel 9450 2350 0    50   Input ~ 0
+C10
+$Comp
+L power:GND #PWR049
+U 1 1 6173457B
+P 9650 2200
+F 0 "#PWR049" H 9650 1950 50  0001 C CNN
+F 1 "GND" H 9655 2027 50  0000 C CNN
+F 2 "" H 9650 2200 50  0001 C CNN
+F 3 "" H 9650 2200 50  0001 C CNN
+	1    9650 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR050
+U 1 1 61734581
+P 9650 2900
+F 0 "#PWR050" H 9650 2650 50  0001 C CNN
+F 1 "GND" H 9655 2727 50  0000 C CNN
+F 2 "" H 9650 2900 50  0001 C CNN
+F 3 "" H 9650 2900 50  0001 C CNN
+	1    9650 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW43
+U 1 1 61734587
+P 9650 3750
+F 0 "SW43" H 9650 3657 50  0000 C CNN
+F 1 "SW_Cap" H 9650 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 9650 3950 50  0001 C CNN
+F 3 "~" H 9650 3950 50  0001 C CNN
+	1    9650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW44
+U 1 1 6173458D
+P 9650 4450
+F 0 "SW44" H 9650 4357 50  0000 C CNN
+F 1 "SW_Cap" H 9650 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 9650 4650 50  0001 C CNN
+F 3 "~" H 9650 4650 50  0001 C CNN
+	1    9650 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 9850 3750 2    50   Input ~ 0
+R2
+Text GLabel 9850 4450 2    50   Input ~ 0
+R3
+Text GLabel 9450 4450 0    50   Input ~ 0
+C10
+Text GLabel 9450 3750 0    50   Input ~ 0
+C10
+$Comp
+L power:GND #PWR051
+U 1 1 61734597
+P 9650 3600
+F 0 "#PWR051" H 9650 3350 50  0001 C CNN
+F 1 "GND" H 9655 3427 50  0000 C CNN
+F 2 "" H 9650 3600 50  0001 C CNN
+F 3 "" H 9650 3600 50  0001 C CNN
+	1    9650 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR052
+U 1 1 6173459D
+P 9650 4300
+F 0 "#PWR052" H 9650 4050 50  0001 C CNN
+F 1 "GND" H 9655 4127 50  0000 C CNN
+F 2 "" H 9650 4300 50  0001 C CNN
+F 3 "" H 9650 4300 50  0001 C CNN
+	1    9650 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW45
+U 1 1 617345A3
+P 10500 2350
+F 0 "SW45" H 10500 2257 50  0000 C CNN
+F 1 "SW_Cap" H 10500 2166 50  0000 C CNN
+F 2 "model_d:capswitch2" H 10500 2550 50  0001 C CNN
+F 3 "~" H 10500 2550 50  0001 C CNN
+	1    10500 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW46
+U 1 1 617345A9
+P 10500 3050
+F 0 "SW46" H 10500 2957 50  0000 C CNN
+F 1 "SW_Cap" H 10500 2866 50  0000 C CNN
+F 2 "model_d:capswitch2" H 10500 3250 50  0001 C CNN
+F 3 "~" H 10500 3250 50  0001 C CNN
+	1    10500 3050
+	1    0    0    -1  
+$EndComp
+Text GLabel 10700 2350 2    50   Input ~ 0
+R0
+Text GLabel 10700 3050 2    50   Input ~ 0
+R1
+Text GLabel 10300 3050 0    50   Input ~ 0
+C11
+Text GLabel 10300 2350 0    50   Input ~ 0
+C11
+$Comp
+L power:GND #PWR053
+U 1 1 617345B3
+P 10500 2200
+F 0 "#PWR053" H 10500 1950 50  0001 C CNN
+F 1 "GND" H 10505 2027 50  0000 C CNN
+F 2 "" H 10500 2200 50  0001 C CNN
+F 3 "" H 10500 2200 50  0001 C CNN
+	1    10500 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR054
+U 1 1 617345B9
+P 10500 2900
+F 0 "#PWR054" H 10500 2650 50  0001 C CNN
+F 1 "GND" H 10505 2727 50  0000 C CNN
+F 2 "" H 10500 2900 50  0001 C CNN
+F 3 "" H 10500 2900 50  0001 C CNN
+	1    10500 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L model_d:SW_Cap SW47
+U 1 1 617345BF
+P 10500 3750
+F 0 "SW47" H 10500 3657 50  0000 C CNN
+F 1 "SW_Cap" H 10500 3566 50  0000 C CNN
+F 2 "model_d:capswitch2" H 10500 3950 50  0001 C CNN
+F 3 "~" H 10500 3950 50  0001 C CNN
+	1    10500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L model_d:SW_Cap SW48
+U 1 1 617345C5
+P 10500 4450
+F 0 "SW48" H 10500 4357 50  0000 C CNN
+F 1 "SW_Cap" H 10500 4266 50  0000 C CNN
+F 2 "model_d:capswitch2" H 10500 4650 50  0001 C CNN
+F 3 "~" H 10500 4650 50  0001 C CNN
+	1    10500 4450
+	1    0    0    -1  
+$EndComp
+Text GLabel 10700 3750 2    50   Input ~ 0
+R2
+Text GLabel 10700 4450 2    50   Input ~ 0
+R3
+Text GLabel 10300 4450 0    50   Input ~ 0
+C11
+Text GLabel 10300 3750 0    50   Input ~ 0
+C11
+$Comp
+L power:GND #PWR055
+U 1 1 617345CF
+P 10500 3600
+F 0 "#PWR055" H 10500 3350 50  0001 C CNN
+F 1 "GND" H 10505 3427 50  0000 C CNN
+F 2 "" H 10500 3600 50  0001 C CNN
+F 3 "" H 10500 3600 50  0001 C CNN
+	1    10500 3600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR056
+U 1 1 617345D5
+P 10500 4300
+F 0 "#PWR056" H 10500 4050 50  0001 C CNN
+F 1 "GND" H 10505 4127 50  0000 C CNN
+F 2 "" H 10500 4300 50  0001 C CNN
+F 3 "" H 10500 4300 50  0001 C CNN
+	1    10500 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR05
+U 1 1 61773EA7
+P 1100 1350
+F 0 "#PWR05" H 1100 1100 50  0001 C CNN
+F 1 "GND" V 1105 1177 50  0000 C CNN
+F 2 "" H 1100 1350 50  0001 C CNN
+F 3 "" H 1100 1350 50  0001 C CNN
+	1    1100 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR06
+U 1 1 61775637
+P 1200 1250
+F 0 "#PWR06" H 1200 1000 50  0001 C CNN
+F 1 "GND" V 1205 1077 50  0000 C CNN
+F 2 "" H 1200 1250 50  0001 C CNN
+F 3 "" H 1200 1250 50  0001 C CNN
+	1    1200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR011
+U 1 1 61775AD8
+P 2500 1250
+F 0 "#PWR011" H 2500 1000 50  0001 C CNN
+F 1 "GND" V 2505 1077 50  0000 C CNN
+F 2 "" H 2500 1250 50  0001 C CNN
+F 3 "" H 2500 1250 50  0001 C CNN
+	1    2500 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR012
+U 1 1 61775FCF
+P 2600 1250
+F 0 "#PWR012" H 2600 1000 50  0001 C CNN
+F 1 "GND" V 2605 1077 50  0000 C CNN
+F 2 "" H 2600 1250 50  0001 C CNN
+F 3 "" H 2600 1250 50  0001 C CNN
+	1    2600 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 1300 1250 3    50   Input ~ 0
+C0
+Text GLabel 1400 1250 3    50   Input ~ 0
+C1
+Text GLabel 1500 1250 3    50   Input ~ 0
+C2
+Text GLabel 1700 1250 3    50   Input ~ 0
+C4
+Text GLabel 1800 1250 3    50   Input ~ 0
+C5
+Text GLabel 1900 1250 3    50   Input ~ 0
+C6
+Text GLabel 2000 1250 3    50   Input ~ 0
+C7
+Text GLabel 2100 1250 3    50   Input ~ 0
+C8
+Text GLabel 2200 1250 3    50   Input ~ 0
+C9
+Text GLabel 2300 1250 3    50   Input ~ 0
+C10
+Text GLabel 2400 1250 3    50   Input ~ 0
+C11
+Text GLabel 1600 1250 3    50   Input ~ 0
+C3
+$Comp
+L power:GND #PWR017
+U 1 1 6178BA2D
+P 4200 1250
+F 0 "#PWR017" H 4200 1000 50  0001 C CNN
+F 1 "GND" V 4205 1077 50  0000 C CNN
+F 2 "" H 4200 1250 50  0001 C CNN
+F 3 "" H 4200 1250 50  0001 C CNN
+	1    4200 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 6178C020
+P 4300 1250
+F 0 "#PWR018" H 4300 1000 50  0001 C CNN
+F 1 "GND" V 4305 1077 50  0000 C CNN
+F 2 "" H 4300 1250 50  0001 C CNN
+F 3 "" H 4300 1250 50  0001 C CNN
+	1    4300 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR019
+U 1 1 6178C499
+P 4800 1250
+F 0 "#PWR019" H 4800 1000 50  0001 C CNN
+F 1 "GND" V 4805 1077 50  0000 C CNN
+F 2 "" H 4800 1250 50  0001 C CNN
+F 3 "" H 4800 1250 50  0001 C CNN
+	1    4800 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR024
+U 1 1 6178CA31
+P 4900 1250
+F 0 "#PWR024" H 4900 1000 50  0001 C CNN
+F 1 "GND" V 4905 1077 50  0000 C CNN
+F 2 "" H 4900 1250 50  0001 C CNN
+F 3 "" H 4900 1250 50  0001 C CNN
+	1    4900 1250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4700 1250 3    50   Input ~ 0
+R0
+Text GLabel 4600 1250 3    50   Input ~ 0
+R1
+Text GLabel 4500 1250 3    50   Input ~ 0
+R2
+Text GLabel 4400 1250 3    50   Input ~ 0
+R3
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 617950E2
+P 1100 1300
+F 0 "#FLG0101" H 1100 1375 50  0001 C CNN
+F 1 "PWR_FLAG" V 1100 1427 50  0000 L CNN
+F 2 "" H 1100 1300 50  0001 C CNN
+F 3 "~" H 1100 1300 50  0001 C CNN
+	1    1100 1300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1100 1350 1100 1300
+Wire Wire Line
+	1100 1300 1100 1250
+Connection ~ 1100 1300
+$Comp
+L Connector_Generic:Conn_01x16 J1
+U 1 1 61CCE509
+P 1800 1050
+F 0 "J1" V 2017 996 50  0000 C CNN
+F 1 "Conn_01x16" V 1926 996 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical" H 1800 1050 50  0001 C CNN
+F 3 "~" H 1800 1050 50  0001 C CNN
+	1    1800 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J2
+U 1 1 61CE709E
+P 4500 1050
+F 0 "J2" V 4464 562 50  0000 R CNN
+F 1 "Conn_01x08" V 4373 562 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical" H 4500 1050 50  0001 C CNN
+F 3 "~" H 4500 1050 50  0001 C CNN
+	1    4500 1050
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC

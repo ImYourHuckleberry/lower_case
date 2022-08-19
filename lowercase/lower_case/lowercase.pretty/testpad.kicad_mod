@@ -1,0 +1,17 @@
+(footprint "testpad" (version 20211014) (generator pcbnew)
+  (layer "F.Cu")
+  (tedit 0)
+  (attr smd)
+  (fp_text reference "TEST_PAD" (at 0 -7.45 unlocked) (layer "F.SilkS") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 66f57253-8436-4146-97ea-01ceb3a5742e)
+  )
+  (fp_text value "testpad" (at 0.45 -5.1 unlocked) (layer "F.Fab") hide
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 3e0b912e-3df9-4aa8-b016-eee9ebf21e62)
+  )
+  (pad "DRIVE" connect rect (at 0.15 0.05) (size 3 5.5) (layers "B.Cu") (tstamp b0d19896-215b-4afc-9822-4c1dbd355f96))
+  (pad "GND" connect circle (at -2.2 0) (size 1.3 1.3) (layers "B.Cu") (tstamp abe47c8d-39fd-415e-afb2-f9888d82e39c))
+  (pad "GND" connect circle (at 2.5 0.05) (size 1.3 1.3) (layers "B.Cu") (tstamp b5bef830-273a-4fe3-af25-3eb8c1e59245))
+  (pad "SENSE" connect rect (at 0.15 0.05) (size 3 5.5) (layers "F.Cu") (tstamp 87450e7b-798b-4229-a8a9-0f48c8ed7a61))
+)
