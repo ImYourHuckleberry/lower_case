@@ -2,7 +2,7 @@
 
 # uhoh
 # You've probably gotten here by mistake
-See this is a 32 key buckling spring keyboard inspired by the IBM Model F
+See this is a 32 key buckling spring keyboard inspired by the IBM Model F.
 In order to have actually wanted to arrive on this page you need to be:
 1) Interested in mechanichal keyboards
 2) Interested in vintage keyboards
