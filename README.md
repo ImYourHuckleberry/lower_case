@@ -22,7 +22,7 @@ You better use a solenoid in this, if you don't I'll know and I'll find you and 
 
 
 # Actual Picture
-![This is real life](https://cdn.discordapp.com/attachments/732690073056706590/1009990712462426182/20220818_200202.jpg)
+![This is real life](https://media.discordapp.net/attachments/529309006494171137/1010228461115297953/20220819_114513.jpg)
 
 # Some notes
 
